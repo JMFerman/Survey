@@ -1,0 +1,103 @@
+body{
+    background-image: url(Cookie_background.jpg);
+    font-family: 'Poppins', sans-serif;
+  /* linear-gradient:(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)); */;
+  background-repeat: repeat; 
+  background-attachment: fixed;
+  }
+  
+  div{
+  background-color: rgba(253, 101, 41, 0.904);
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+  width: 600px;
+  margin: 0 auto;
+  }
+
+.question-3, .question-4 {
+  font-size: 20px;
+}
+
+.textarea {
+  font-size: 20px;
+  line-height: 2;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+  .checkboxes {
+    line-height: 2;
+    font-size: 17px;
+    margin: 10px 0;
+  }
+  
+#title {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+  #description{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .info {
+    font-size: 20px;
+    line-height: 2;
+  }
+
+.stars {
+  line-height: 2;
+}
+
+  label {
+    display:block;
+  }
+
+.choices {
+  padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+  input[type="text"] {
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"]{
+    display:block;
+    background-color: green;
+    color:white;
+    margin-top: 20px;
+    padding: 10px 0;
+  }
+  
+  #name, #question-1, #question-2, #number, #dropdown, #survey-form, textarea, checkbox{
+    display: block;
+    width:100%;
+  }
+  
+  input[type="submit"]{
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+
+  input[type="submit"]:hover {
+    color: #ff0000;
+    background-color: navy;
+  }
+
+  @media screen and (device-aspect-ratio: 16/9) {
+  }

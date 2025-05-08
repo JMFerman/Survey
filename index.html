@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>survey form</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div>
+<h1 id="title">K and K Bakery Survey</h1>
+<p id="description">Thank you for taking the time to help us improve out business</p>
+<form id="survey-form">
+    <section class="info">
+<label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required></input> 
+</label>
+<label id="question-1">How did you hear about us?<input id="question-1" type="text" required placeholder="social media, friends, storefront sign..."></input>
+</label>
+<label id="question-2">What desserts did you buy?</label>
+<select id="dropdown" class="choices"></div>
+    <option></option>
+    <option>Cookies</option>
+    <option>Muffin</option>
+    <option>Cinamon Roll</option>
+    <option>Mini Flan</option>
+    <option>Cheesecake</option>
+    </select>
+    </section>
+    <hr>
+    <section class="checkboxes">
+<label class="question-3">What would you like to see on your next visit? (Check all that apply)</label>
+<label><input type="checkbox" value="1">Brownies</input></label>
+<label><input type="checkbox" value="2">Fruit Tart</input></label>
+<label><input type="checkbox" value="3">Pie</input></label>
+<label><input type="checkbox" value="4">Cream Puffs</input></label>
+<label><input type="checkbox" value="5">Chocolate Cake</input></label>
+<label><input type="checkbox" value="6">Conchas</input></label>
+<label><input type="checkbox" value="7">Banana Bread</input></label>
+</section>
+<hr>
+<section class="stars">
+<label class="question-4">How would you rate your experience with us?</label>
+<label><input type="radio" name="radio-btn"value="1" checked></input>1-Star</label>
+<label><input type="radio" name="radio-btn" value="2"></input>2-Star</label>
+<label><input type="radio" name="radio-btn" value="3"></input>3-Star</label>
+<label><input type="radio" name="radio-btn"value="4"></input>4-Star</label>
+<label><input type="radio" name="radio-btn" value="5"></input>5-Star</label>
+</section>
+<hr>
+<section class="textarea">
+<label class="suggestion">Any comments or suggestions?</label>
+<textarea></textarea>
+</section>
+<input id="submit" class="submit" type="Submit"></input>
+</form>
+</div>
+</body>
+
+</html>
